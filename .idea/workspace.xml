@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -35,9 +35,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../af_easymock" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hu.szabonorbert.eke_progtech" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StoreTest">
     <configuration name="CarTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="eke_progtech" />
       <extension name="coverage">
@@ -67,9 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eke_progtech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.szabonorbert.eke_progtech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.szabonorbert.eke_progtech" />
+      <option name="MAIN_CLASS_NAME" value="hu.szabonorbert.eke_progtech.StoreTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.StoreTest" />
         <item itemvalue="Android JUnit.CarTest" />
       </list>
     </recent_temporary>
@@ -125,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589624089352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The manager is singleton now!">
+      <created>1589624611079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589624611079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,7 +166,8 @@
     <MESSAGE value="redme update" />
     <MESSAGE value="Car update&#10;year attribute instead of color" />
     <MESSAGE value="Basic Person stuff: has a name, and he can speak" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Person stuff: has a name, and he can speak" />
+    <MESSAGE value="The manager is singleton now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="The manager is singleton now!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -144,55 +178,55 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1589624088083">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1589624609822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589624088083" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589624609822" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589624592089">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1589643824256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589624592089" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824256" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589624592088">
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1589643824255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589624592088" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824255" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589624592088">
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1589643824255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589624592088" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824255" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589624592088">
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1589643824255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589624592088" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824255" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589622190344">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589643824257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589622190344" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589622190344">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824257" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589643824256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589622190344" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589622190344">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824256" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589643824256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589622190344" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589622190344">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824256" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589643824257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589622190344" />
-    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589619610059">
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824257" />
+    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589642974857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619610059" />
+    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589642974857" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587827804751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -13,7 +13,6 @@ public class Manager extends Person {
         return uniqueInstance;
     }
 
-
     public void Speak(String sentence){
         System.out.println(name + " (menedzser): - " + sentence);
     }

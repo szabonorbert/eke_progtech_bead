@@ -5,7 +5,6 @@ public class App {
 
         Person csabi = new Customer("Csabi");
         csabi.Speak("Jó napot!");
-
         Person jozsi = Manager.getInstance();
         jozsi.Speak("Üdv nálunk!");
 
