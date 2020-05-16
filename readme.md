@@ -12,5 +12,5 @@ Egy autókereskedést modellezünk a szoftverrel (nem vár user inputot, a cél 
 - Az ügyvezető valóban azt válaszolja amit kell (a raktárkészlet alapján)?
 - ...
 
-###TDD megvalósítása:
+#### TDD megvalósítása:
 (todo)
