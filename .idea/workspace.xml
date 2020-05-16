@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/szabonorbert/eke_progtech/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hu/szabonorbert/eke_progtech/CarTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589658377424</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Finished methods. Preparing for testing.">
+      <created>1589659332396</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1589659332396</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="More test for Store removeCar" />
     <MESSAGE value="Car got wrooming function and noise: Strategy Pattern" />
     <MESSAGE value="Csabi to Kati&#10;When a person is speaking, only the first letter will be shown&#10;Implemented Do at Manager and Customer" />
     <MESSAGE value="TDD Store: add test wich fails now.&#10;removeCar method should consider WroomingStrategy" />
@@ -445,7 +446,8 @@
     <MESSAGE value="using the Car's deepCopy method in the storyline&#10;Prototype is working" />
     <MESSAGE value="Improve transcript, improve code" />
     <MESSAGE value="Story, story, story time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Story, story, story time" />
+    <MESSAGE value="Finished methods. Preparing for testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished methods. Preparing for testing." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -457,10 +459,10 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589653667178" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589658375891">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589659331038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589658375891" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589659331038" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />

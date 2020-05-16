@@ -62,7 +62,7 @@ public class App {
         sanyi.saySomething("...és épp van szabad kapacitásunk...");
         sanyi.saySomething("...és beszél az eladó angolul, magyarul vagy eszperantóul...");
         sanyi.saySomething("...szóval szerintem IGEN!");
-        kata.doSomething("ráncolja homlokát, de azért leadja a rendelést papíron, s végül távozik");
+        kata.doSomething("ráncolja homlokát, de azért véglegesíti rendelést, majd távozik");
 
         /////
 
