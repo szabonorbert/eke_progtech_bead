@@ -23,8 +23,6 @@ public class Car {
     public double getCondition() { return condition; }
     public WroomingStrategy getWroomingStrategy() { return wroomingStrategy; }
 
-    public void setCondition(double condition) { this.condition = condition; }
-
     public void Wroom(){ wroomingStrategy.Wroom(); }
 
     @Override

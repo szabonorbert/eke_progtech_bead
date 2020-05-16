@@ -14,6 +14,6 @@ public class App {
         jozsi.Speak("Üdv nálunk!");
 
         Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
-        kata.Speak("Szeretnék venni egy ilyen autót: " + kataDreamCar + ".");
+        kata.Speak("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
     }
 }
