@@ -11,4 +11,8 @@ public class OldWrooming extends WroomingStrategy{
     public String toString(){
         return "OldWrooming";
     }
+    @Override
+    public OldWrooming clone(){
+        return new OldWrooming();
+    }
 }

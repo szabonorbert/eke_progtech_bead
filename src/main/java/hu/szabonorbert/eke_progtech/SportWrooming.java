@@ -9,4 +9,8 @@ public class SportWrooming extends WroomingStrategy {
     public String toString(){
         return "SportWrooming";
     }
+    @Override
+    public SportWrooming clone(){
+        return new SportWrooming();
+    }
 }

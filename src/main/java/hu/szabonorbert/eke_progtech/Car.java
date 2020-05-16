@@ -25,6 +25,10 @@ public class Car {
 
     public void Wroom(){ wroomingStrategy.Wroom(); }
 
+    public Car deepCopy(){
+        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy.clone());
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -34,7 +38,7 @@ public class Car {
                 Double.compare(car.condition, condition) == 0 &&
                 manufacturer.equals(car.manufacturer) &&
                 type.equals(car.type) &&
-                wroomingStrategy.equals(car.wroomingStrategy);
+                wroomingStrategy.toString().equals(car.wroomingStrategy.toString());
     }
 
     @Override

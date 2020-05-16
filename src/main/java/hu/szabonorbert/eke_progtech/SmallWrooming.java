@@ -10,4 +10,8 @@ public class SmallWrooming extends WroomingStrategy{
     public String toString(){
         return "SmallWrooming";
     }
+    @Override
+    public SmallWrooming clone(){
+        return new SmallWrooming();
+    }
 }
