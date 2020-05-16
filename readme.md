@@ -2,8 +2,8 @@ Egy autókereskedést modellezünk a szoftverrel (nem vár user inputot, a cél 
 
 #### Programtervezési minták
 - Singleton: az menedzsert bárki elérheti és tehet fel kérdéseket (metódusok hívása), de belőle csak egy van. A getInstance-al férünk hozzá.
-- Prototype: pl ha azt mondja a menedzser, hogy “külföldről hozzunk be 100 ugyanilyen autót, mint amit az előbb jó áron eladtunk”, akkor abból az autóból kell elkészteni 100 példányt (deep copy).
-- Decorator: eladás előtt adunk az autóknak bizonyos tulajdonságokat, hogy kelendőbbek legyenek. Például lemossuk, kifényezzük, ellenőrizzük.
+- Prototype: pl ha azt mondja a menedzser, hogy “szerezzünk ugyanilyen autót”, akkor abból az autóból kell készíteni akármennyi példányt (deep copy).
+- Decorator: eladás előtt adunk az autóknak bizonyos tulajdonságokat, hogy a vevőnek imponáljunk. Például lemossuk, kifényezzük, ellenőrizzük.
 - Strategy: a vevő kéri, hogy hadd próbálja ki az autót. Kinyitja az ajtót, beül, elindítja, leállítja. Például: egy kis autó halkan brummog, egy nagy autó hangosan brummog.
 
 #### Unit teszt ötletek

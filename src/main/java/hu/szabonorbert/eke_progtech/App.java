@@ -53,7 +53,19 @@ public class App {
 
         /////
 
+        Car compromiseCar = new Car("Reanult", "Megane CC", 2005, 65, new SportWrooming());
+        kata.saySomething("Lehetséges-e a következő autóból beszerezni 5-öt?");
+        kata.saySomething(compromiseCar.toString());
 
+        sanyi.saySomething("Hölgyem, mi bármennyit be tudunk szerezni bármilyen típusból...");
+        sanyi.saySomething("...ha van a környező országokban...");
+        sanyi.saySomething("...és ami reális...");
+        sanyi.saySomething("...és épp van szabad kapacitásunk...");
+        sanyi.saySomething("...és beszél az eladó angolul, magyarul vagy eszperantóul...");
+        sanyi.saySomething("...szóval szerintem IGEN!");
+        kata.doSomething("ráncolja homlokát, de azért leadja a rendelést papíron, s végül távozik.");
 
+        System.out.println("");
+        System.out.println("* 2 héttel később *");
     }
 }
