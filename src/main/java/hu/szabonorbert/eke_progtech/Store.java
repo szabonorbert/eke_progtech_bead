@@ -10,7 +10,7 @@ public class Store {
     }
 
     public int getSize(){
-        return 0;
+        return cars.size();
     }
 
     public void addCar(Car c){
