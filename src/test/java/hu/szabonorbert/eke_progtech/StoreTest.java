@@ -11,6 +11,10 @@ import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
 public class StoreTest {
 
-
+    @Test
+    public void ZeroCarsZeroSize() {
+        Store target = new Store();
+        assertEquals(0, target.getSize());
+    }
 
 }
