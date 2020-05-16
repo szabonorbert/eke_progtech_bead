@@ -85,6 +85,12 @@ public class StoreTest {
     @Test
     public void getListTest1() {
         Store target = new Store();
+        assertEquals(0, target.getList().size());
+    }
+
+    @Test
+    public void getListTest2() {
+        Store target = new Store();
         Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
         Car car2 = new Car("Opel", "Astra H", 2005, 78, new OldWrooming());
         Car car3 = new Car("Audi", "A3", 2008, 84, new SportWrooming());
