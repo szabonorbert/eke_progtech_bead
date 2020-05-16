@@ -10,10 +10,11 @@ public class App {
 
         kata.doSomething("belép a boltba");
         kata.saySomething("Jó napot!");
-        Person jozsi = Manager.getInstance();
-        jozsi.saySomething("Üdv nálunk!");
+        Person sanyi = Manager.getInstance();
+        sanyi.saySomething("Üdv nálunk!");
 
         Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
         kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
+
     }
 }
