@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
     </list>
@@ -361,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589655669822</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Story time, my dudes!">
+      <created>1589656390190</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1589656390190</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Starting Store TDD" />
     <MESSAGE value="More cars" />
     <MESSAGE value="Store removeCar method" />
     <MESSAGE value="Store removeCar method done" />
@@ -401,7 +406,8 @@
     <MESSAGE value="Car checking methods implementation done (Template Design Pattern)" />
     <MESSAGE value="More for the storyline! Using the Template pattern's benefits." />
     <MESSAGE value="More for the storyline! Using the Template pattern's benefits.&#10;Plus some small improvements." />
-    <option name="LAST_COMMIT_MESSAGE" value="More for the storyline! Using the Template pattern's benefits.&#10;Plus some small improvements." />
+    <MESSAGE value="Story time, my dudes!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Story time, my dudes!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -413,34 +419,34 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589653667178" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589655668509">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589656388860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655668509" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656388860" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589656283720">
+    <state width="1323" height="127" key="GridCell.Tab.0.bottom" timestamp="1589656610193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656283720" />
+    <state width="1323" height="127" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656610193" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589656283719">
+    <state width="1323" height="127" key="GridCell.Tab.0.center" timestamp="1589656610192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656283719" />
+    <state width="1323" height="127" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656610192" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589656283719">
+    <state width="1323" height="127" key="GridCell.Tab.0.left" timestamp="1589656610192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656283719" />
+    <state width="1323" height="127" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656610192" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589656283720">
+    <state width="1323" height="127" key="GridCell.Tab.0.right" timestamp="1589656610193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656283720" />
+    <state width="1323" height="127" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589656610193" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589655560851">
       <screen x="0" y="0" width="1366" height="728" />

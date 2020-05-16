@@ -63,9 +63,21 @@ public class App {
         sanyi.saySomething("...és épp van szabad kapacitásunk...");
         sanyi.saySomething("...és beszél az eladó angolul, magyarul vagy eszperantóul...");
         sanyi.saySomething("...szóval szerintem IGEN!");
-        kata.doSomething("ráncolja homlokát, de azért leadja a rendelést papíron, s végül távozik.");
+        kata.doSomething("ráncolja homlokát, de azért leadja a rendelést papíron, s végül távozik");
+
+        /////
+
+        sanyi.doSomething("dolgozni kezd a megvalósításon");
 
         System.out.println("");
-        System.out.println("* 2 héttel később *");
+        System.out.println("* később *");
+        System.out.println("");
+
+        sanyi.doSomething("rájön honnan szerezzen olyan autót, amit a vevő rendelt, fel is tölti a készletet");
+        for (int i=0; i<5; i++) store.addCar(compromiseCar.deepCopy());
+
+        /////
+
+
     }
 }
