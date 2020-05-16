@@ -12,4 +12,8 @@ public class Store {
     public int getSize(){
         return 0;
     }
+
+    public void addCar(Car c){
+        cars.add(c);
+    }
 }
