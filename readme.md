@@ -1,14 +1,16 @@
-Egy autókereskedést tervezek modellezni a szoftverrel, parancssorral kezelhető. Külföldről lehet autókat behozni, azokat árulja a kereskedés, akár megrendelésre.
+Egy autókereskedést modellezünk a szoftverrel (nem vár user inputot, a cél az alábbi tervezési minták megvalósítása). Külföldről lehet autókat behozni, azokat árulja a kereskedés, akár megrendelésre.
 
-#### Programtervezési minta ötletek
-- Singleton: az ügyvezetőnek bárki tehet fel bizonyos kérdéseket (metódusok hívása), de ügyvezetőből csak egy van, őt a getInstance-al érjük el
-- Prototype: pl ha azt mondja az ügyvezető, hogy “külföldről hozzunk be 100 ugyanilyen autót mint amit az előbb jó áron eladtunk”, akkor abból az autóból kell legyártani 100 példányt
-- Adapter: az autók hazaszállítására elküldjük a sorfőt vonattal, aminek odaadjuk az autót, és őt utasíthatjuk pozícióváltásra (hozza haza az autót amiben ül), ezzel együtt az autó koordinátája is változik. (Tehát az autónak van koordinátája, de nem módosítható önmagában. Egy sofőrt kell adapternek használni ahhoz, hogy az autót mozgassuk)
-- Observer: az ügyfél várja, hogy végre megérkezzen az autója. A kereskedő küld neki egy SMS-t, amikor a sofőr (adapter) a külföldről rendelt autóját leszállította a kereskedésbe.
-- ...
+#### Programtervezési minták
+- Singleton: az menedzsert bárki elérheti és tehet fel kérdéseket (metódusok hívása), de belőle csak egy van. A getInstance-al férünk hozzá.
+- Prototype: pl ha azt mondja a menedzser, hogy “külföldről hozzunk be 100 ugyanilyen autót, mint amit az előbb jó áron eladtunk”, akkor abból az autóból kell legyártani 100 példányt.
+- Decorator: eladás előtt adunk az autóknak bizonyos tulajdonságokat, hogy kelendőbbek legyenek. Például lemossuk, kifényezzük, ellenőrizzük.
+- Strategy: a vevő kéri, hogy hadd próbálja ki az autót. Kinyitja az ajtót, beül, elindítja, leállítja. Például: egy kis autó halkan brummog, egy nagy autó hangosan brummog.
 
 #### Unit teszt ötletek
 - A sorfőr eljutása A-ból B pontba
 - Megjön az összes rendelt autó (annyi van raktáron mennyit kértünk?)
 - Az ügyvezető valóban azt válaszolja amit kell (a raktárkészlet alapján)?
 - ...
+
+###TDD megvalósítása:
+(todo)
