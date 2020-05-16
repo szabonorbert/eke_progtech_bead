@@ -26,4 +26,10 @@ public class Store {
             cars.remove(index);
         }
     }
+
+    public void addDummyCars(){
+        cars.add(new Car("Opel", "Astra H", 2005, 78, new SportWrooming()));
+        cars.add(new Car("Renault", "Megane CC", 2004, 65, new SmallWrooming()));
+        cars.add(new Car("Audi", "A3", 2008, 84, new SportWrooming()));
+    }
 }

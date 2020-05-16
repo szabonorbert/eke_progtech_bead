@@ -6,5 +6,8 @@ public abstract class Person {
         this.name = name;
     }
     public String getName(){ return name; }
-    abstract void Speak(String sentence);
+    public void Speak(String sentence){
+        System.out.println(name.charAt(0)  + ": " + sentence);
+    }
+    public abstract void Do(String action);
 }

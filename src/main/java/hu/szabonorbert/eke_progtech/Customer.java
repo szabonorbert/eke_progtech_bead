@@ -5,7 +5,8 @@ public class Customer extends Person {
         super(name);
     }
 
-    public void Speak(String sentence){
-        System.out.println(name  + " (vásárló): - " + sentence);
+    @Override
+    public void Do(String sentence){
+        System.out.println(name  + ", a vásárló " + sentence + ".");
     }
 }
