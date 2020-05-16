@@ -2,6 +2,9 @@ package hu.szabonorbert.eke_progtech;
 
 public class App {
     public static void main(String args[]) {
-        System.out.println("hello world");
+        Person jozsi = new Manager("Józsi");
+        Person csabi = new Customer("Csabi");
+        jozsi.Speak("Üdv nálunk!");
+        csabi.Speak("Jó napot!");
     }
 }
