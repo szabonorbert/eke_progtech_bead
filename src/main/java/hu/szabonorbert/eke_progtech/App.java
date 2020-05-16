@@ -86,5 +86,39 @@ public class App {
             sanyi.saySomething("\t\t" + c);
         }
 
+        /////
+
+        kata.saySomething("Nagyszerű, viszem a rendelt autókat.");
+        ArrayList<Car> kataCars = new ArrayList<>();
+        for (int i=0; i<6; i++){
+            if (store.removeCar(compromiseCar)){
+                kata.saySomething("Ez meg is van...");
+                kataCars.add(compromiseCar.deepCopy());
+            } else {
+                kata.saySomething("Hopsz, véletlen olyan autót akartam elvinni, ami nincs is...");
+            }
+        }
+        kata.saySomething("Kész. Van nálam összesen " + kataCars.size() + " darab autó, mégpedig:");
+        for (Car c : kataCars){
+            kata.saySomething("\t\t" + c);
+        }
+
+        /////
+
+        sanyi.saySomething("Ilyet szeretett volna?");
+        kata.doSomething("odamegy az egyik autóhoz, és kipróbálja");
+        kata.checkTheCar(kataCars.get(0));
+        kata.doSomething("megnézi mindegyik autó ugyanolyan-e, mint amilyet rendelt");
+        boolean test = true;
+        for (Car c : kataCars){
+            if (!c.equals(compromiseCar)) test = false;
+        }
+        if (test){
+            kata.saySomething("Pontosan ilyet.");
+        } else {
+            kata.saySomething("Nem igazán...");
+        }
+
+
     }
 }
