@@ -16,4 +16,8 @@ public class Store {
     public void addCar(Car c){
         cars.add(c);
     }
+
+    public void removeCar(Car c){
+
+    }
 }
