@@ -8,12 +8,12 @@ public class App {
 
         Person kata = new Customer("Kata");
 
-        kata.Do("belép a boltba");
-        kata.Speak("Jó napot!");
+        kata.doSomething("belép a boltba");
+        kata.saySomething("Jó napot!");
         Person jozsi = Manager.getInstance();
-        jozsi.Speak("Üdv nálunk!");
+        jozsi.saySomething("Üdv nálunk!");
 
         Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
-        kata.Speak("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
+        kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
     }
 }

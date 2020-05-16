@@ -6,7 +6,7 @@ public class Customer extends Person {
     }
 
     @Override
-    public void Do(String sentence){
+    public void doSomething(String sentence){
         System.out.println(name  + ", a vásárló " + sentence + ".");
     }
 }

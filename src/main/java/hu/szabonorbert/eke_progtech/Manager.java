@@ -10,12 +10,12 @@ public class Manager extends Person {
 
     public static Manager getInstance(){
         if (uniqueInstance == null) uniqueInstance = new Manager("Józsi");
-        uniqueInstance.Do("előbukkan");
+        uniqueInstance.doSomething("előbukkan");
         return uniqueInstance;
     }
 
     @Override
-    public void Do(String sentence){
+    public void doSomething(String sentence){
         System.out.println(name  + ", a menedzser " + sentence + ".");
     }
 }
