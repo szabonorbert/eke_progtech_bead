@@ -48,7 +48,7 @@ public class App {
 
         sanyi.saySomething("Hölgyem, finomabban bánjon ezekkel az autókkal! Nézze csak:");
         sanyi.checkTheCar(last);
-        sanyi.saySomething("Nos, ez tényleg nem indul.");
+        sanyi.saySomething("Nos, ez tényleg nem működik.");
 
         /////
 
@@ -79,7 +79,6 @@ public class App {
 
         kata.doSomething("belép a boltba");
         kata.saySomething("Jó napot! Úgy tudom megjött a rendelésem...");
-        sanyi = Manager.getInstance();
         sanyi.saySomething("De meg ám! Nézze csak, hogy mik vannak raktáron:");
         ArrayList<Car> newList = store.getList();
         for (Car c : newList){
@@ -95,7 +94,7 @@ public class App {
                 kata.saySomething("Ez meg is van...");
                 kataCars.add(compromiseCar.deepCopy());
             } else {
-                kata.saySomething("Hopsz, véletlen olyan autót akartam elvinni, ami nincs is...");
+                kata.saySomething("Ez nincs! Hoppá, véletlen olyan autót akartam elvinni, ami itt nem létezik...");
             }
         }
         kata.saySomething("Kész. Van nálam összesen " + kataCars.size() + " darab autó, mégpedig:");
@@ -108,15 +107,16 @@ public class App {
         sanyi.saySomething("Ilyet szeretett volna?");
         kata.doSomething("odamegy az egyik autóhoz, és kipróbálja");
         kata.checkTheCar(kataCars.get(0));
+        sanyi.doSomething("elmorzsol egy könnycseppet, de nem szól egy szót sem");
         kata.doSomething("megnézi mindegyik autó ugyanolyan-e, mint amilyet rendelt");
         boolean test = true;
         for (Car c : kataCars){
             if (!c.equals(compromiseCar)) test = false;
         }
         if (test){
-            kata.saySomething("Pontosan ilyet.");
+            kata.saySomething("Igen, pontosan ilyet.");
         } else {
-            kata.saySomething("Nem igazán...");
+            kata.saySomething("Nem igazán... Kinél lehet panaszt benyújtani?");
         }
 
 
