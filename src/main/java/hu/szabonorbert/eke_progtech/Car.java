@@ -17,24 +17,15 @@ public class Car {
         this.wroomingStrategy = wroomingStrategy;
     }
 
-    public String getManufacturer() {
-        return manufacturer;
-    }
+    public String getManufacturer() { return manufacturer; }
     public String getType() { return type; }
-    public int getYear() {
-        return year;
-    }
-    public double getCondition() {
-        return condition;
-    }
+    public int getYear() { return year; }
+    public double getCondition() { return condition; }
+    public WroomingStrategy getWroomingStrategy() { return wroomingStrategy; }
 
-    public void setCondition(double condition) {
-        this.condition = condition;
-    }
+    public void setCondition(double condition) { this.condition = condition; }
 
-    public void Wroom(){
-        wroomingStrategy.Wroom();
-    }
+    public void Wroom(){ wroomingStrategy.Wroom(); }
 
     @Override
     public boolean equals(Object o) {
