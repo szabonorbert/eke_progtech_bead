@@ -12,6 +12,8 @@ public class App {
         kata.Speak("Jó napot!");
         Person jozsi = Manager.getInstance();
         jozsi.Speak("Üdv nálunk!");
-        kata.Speak("Szeretnék venni egy ilyen autót:");
+
+        Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
+        kata.Speak("Szeretnék venni egy ilyen autót: " + kataDreamCar + ".");
     }
 }

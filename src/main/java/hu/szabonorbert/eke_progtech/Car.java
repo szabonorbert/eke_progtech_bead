@@ -45,8 +45,8 @@ public class Car {
                 "manufacturer='" + manufacturer + '\'' +
                 ", type='" + type + '\'' +
                 ", year='" + year + '\'' +
-                ", condition=" + condition + '\'' +
-                ", wroomingStrategy=" + wroomingStrategy +
+                ", condition='" + condition + "%'" +
+                ", wroomingStrategy='" + wroomingStrategy + '\'' +
                 '}';
     }
 }

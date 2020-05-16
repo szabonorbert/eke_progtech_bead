@@ -5,4 +5,8 @@ public class SportWrooming extends WroomingStrategy {
     public void Wroom() {
         System.out.println("*motorhang*: WROOOOOM-WRRRRRRROOOOOOOOOOOOOM-bom-bom-bom...");
     }
+    @Override
+    public String toString(){
+        return "SportWrooming";
+    }
 }
