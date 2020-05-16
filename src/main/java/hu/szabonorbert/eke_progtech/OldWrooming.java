@@ -4,8 +4,8 @@ public class OldWrooming extends WroomingStrategy{
 
     @Override
     public void Wroom() {
-        System.out.println("*motorhang*: kpfh, kpffffffffh, wroooom-bom-bom-bom-kpfh ... PAH");
-        System.out.println("*kínos csönd*");
+        System.out.println("\t\t> *motorhang*: kpfh, kpffffffffh, wroooom-bom-bom-bom-kpfh ... PAH");
+        System.out.println("\t\t> *kínos csönd*");
     }
     @Override
     public String toString(){

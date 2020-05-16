@@ -5,12 +5,12 @@ public class SoftCarChecking extends CarCheckingTemplate{
 
     @Override
     protected void openDoor() {
-        System.out.println("finoman kinyitja az ajtót");
+        System.out.println("\t\t> finoman kinyitja az ajtót");
     }
 
     @Override
     protected void gettingIn() {
-        System.out.println("beül a vezetőülésre");
+        System.out.println("\t\t> beül a vezetőülésre");
     }
 
     @Override
@@ -20,11 +20,11 @@ public class SoftCarChecking extends CarCheckingTemplate{
 
     @Override
     protected void gettingOut() {
-        System.out.println("kiszáll az autóból");
+        System.out.println("\t\t> kiszáll az autóból");
     }
 
     @Override
     protected void closeDoor() {
-        System.out.println("finoman becsukja az ajtót");
+        System.out.println("\t\t> finoman becsukja az ajtót");
     }
 }

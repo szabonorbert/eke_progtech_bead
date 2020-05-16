@@ -15,19 +15,45 @@ public class App {
         Person sanyi = Manager.getInstance();
         sanyi.saySomething("Üdv nálunk!");
 
+        /////
+
         Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
         kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
-
         sanyi.doSomething("illedelmesen elmagyarázza, hogy ezek irreális elvárások egy használtautó kereskedésben");
         kata.saySomething("Hát jó. Mit javasol?");
+
+        /////
 
         sanyi.doSomething("végiggondolja mi van raktáron");
         String sanyiThoughts = "";
         ArrayList<Car> list = store.getList();
-        for (int i=0; i<list.size(); i++){
-            sanyiThoughts += "\n\t\t" + list.get(i);
+        for (Car c:list){
+            sanyiThoughts += "\n\t\t" + c;
         }
         sanyi.saySomething("A következőkből lehet választani:" + sanyiThoughts);
+
+        /////
+
+        kata.saySomething("Kipróbálom a legelső és a legutolsó kocsit!");
+
+        Car first = list.get(0);
+        kata.doSomething("a következőket teszi az első autóval (" + first  + "):");
+        kata.checkTheCar(first);
+
+        Car last = list.get(list.size()-1);
+        kata.doSomething("a következőket teszi az második autóval (" + last  + "):");
+        kata.checkTheCar(last);
+        kata.saySomething("Milyen kereskedés ez?! Ez az utolsó nem is működik, túl régi a motor.");
+
+        /////
+
+        sanyi.saySomething("Hölgyem, finomabban bánjon ezekkel az autókkal! Nézze csak:");
+        sanyi.checkTheCar(last);
+        sanyi.saySomething("Nos, ez tényleg nem indul.");
+
+        /////
+
+
 
     }
 }

@@ -12,4 +12,5 @@ public abstract class Person {
         System.out.println(name.charAt(0)  + ": - " + sentence);
     }
     public abstract void doSomething(String action);
+    public void checkTheCar(Car car){carCheckingTemplate.checkTheCar(car);}
 }

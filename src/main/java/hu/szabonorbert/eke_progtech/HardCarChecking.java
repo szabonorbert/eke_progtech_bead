@@ -5,12 +5,12 @@ public class HardCarChecking extends CarCheckingTemplate{
 
     @Override
     protected void openDoor() {
-        System.out.println("feltépi az ajtót");
+        System.out.println("\t\t> feltépi az ajtót");
     }
 
     @Override
     protected void gettingIn() {
-        System.out.println("bepattan a vezetőülésre, az autó nagyot nyekken");
+        System.out.println("\t\t> bepattan a vezetőülésre, az autó nagyot nyekken");
     }
 
     @Override
@@ -22,11 +22,11 @@ public class HardCarChecking extends CarCheckingTemplate{
 
     @Override
     protected void gettingOut() {
-        System.out.println("szinte kiesik az autóból");
+        System.out.println("\t\t> szinte kiesik az autóból");
     }
 
     @Override
     protected void closeDoor() {
-        System.out.println("becsapja az ajtót, az autó reccsen");
+        System.out.println("\t\t> becsapja az ajtót, az autó reccsen");
     }
 }

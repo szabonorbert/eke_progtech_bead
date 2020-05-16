@@ -6,7 +6,7 @@ public class Store {
     private ArrayList<Car> cars;
 
     public Store(){
-        cars = new ArrayList<Car>();
+        cars = new ArrayList<>();
     }
 
     public int getSize(){
@@ -28,7 +28,7 @@ public class Store {
     }
 
     public ArrayList<Car> getList(){
-        ArrayList<Car> ret = new ArrayList<Car>();
+        ArrayList<Car> ret = new ArrayList<>();
         for (Car c: cars){
             ret.add(c.deepCopy());
         }
@@ -39,5 +39,6 @@ public class Store {
         cars.add(new Car("Opel", "Astra H", 2005, 78, new SportWrooming()));
         cars.add(new Car("Renault", "Megane CC", 2004, 65, new SmallWrooming()));
         cars.add(new Car("Audi", "A3", 2008, 84, new SportWrooming()));
+        cars.add(new Car("Mercedes", "E 300 D", 1992, 22, new OldWrooming()));
     }
 }

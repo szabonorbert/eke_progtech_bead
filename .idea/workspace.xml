@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
+    <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="More for the storyline! Using the Template pattern's benefits.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/CarCheckingTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/CarCheckingTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/HardCarChecking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/HardCarChecking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/OldWrooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/OldWrooming.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SmallWrooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SmallWrooming.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SoftCarChecking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SoftCarChecking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SportWrooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SportWrooming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Store.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,12 +356,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589653958367</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Car checking methods implementation done (Template Design Pattern)">
+      <created>1589654592191</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1589654592191</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Car update&#10;year attribute instead of color" />
-    <MESSAGE value="Basic Person stuff: has a name, and he can speak" />
     <MESSAGE value="The manager is singleton now!" />
     <MESSAGE value="Starting Store TDD" />
     <MESSAGE value="More cars" />
@@ -380,7 +390,9 @@
     <MESSAGE value="Sanyi is thinking" />
     <MESSAGE value="CarCheckingTemplate: developing the Template design pattern" />
     <MESSAGE value="checking methods implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking methods implemented" />
+    <MESSAGE value="Car checking methods implementation done (Template Design Pattern)" />
+    <MESSAGE value="More for the storyline! Using the Template pattern's benefits." />
+    <option name="LAST_COMMIT_MESSAGE" value="More for the storyline! Using the Template pattern's benefits." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -392,51 +404,51 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589653667178" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589654581517">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589655590187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589654581517" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655590187" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589654581567">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589655642980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589654581567" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655642980" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589654581566">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589655642980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589654581566" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655642980" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589654581566">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589655642979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589654581566" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655642979" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589654581567">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589655642980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589654581567" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655642980" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589643824257">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589655560851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824257" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589643824256">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655560851" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1589655560851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824256" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589643824256">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655560851" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1589655560850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824256" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589643824257">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655560850" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1589655560851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589643824257" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589655560851" />
     <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589642974857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -12,7 +12,7 @@ public abstract class CarCheckingTemplate {
         closeDoor();
     }
     private void getVision(){
-        System.out.println("ránéz az autóra");
+        System.out.println("\t\t> ránéz az autóra");
     }
     protected abstract void openDoor();
     protected abstract void gettingIn();
