@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/OldWrooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/OldWrooming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SmallWrooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SmallWrooming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SportWrooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SportWrooming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/WroomingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/WroomingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StoreTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="CarTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="eke_progtech" />
       <extension name="coverage">
@@ -100,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StoreTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.StoreTest" />
         <item itemvalue="Android JUnit.CarTest" />
       </list>
     </recent_temporary>
@@ -318,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589650981090</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Car deepCopy method: WroomingStrategy is clonable now&#10;=&gt; Prototype design pattern">
+      <created>1589652253595</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1589652253595</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Tests for the getList method of Store, wich depends on the deepCopy method of Car">
+      <created>1589652309336</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1589652309336</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -344,7 +352,9 @@
     <MESSAGE value="Store getList method" />
     <MESSAGE value="Store getList method test: basic" />
     <MESSAGE value="Store getList method test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Store getList method test" />
+    <MESSAGE value="Car deepCopy method: WroomingStrategy is clonable now&#10;=&gt; Prototype design pattern" />
+    <MESSAGE value="Tests for the getList method of Store, wich depends on the deepCopy method of Car" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests for the getList method of Store, wich depends on the deepCopy method of Car" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -356,34 +366,34 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646767298" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1589652250523">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1589652308087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652250523" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652308087" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589652166742">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589652809538">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652166742" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652809538" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589652166741">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589652809537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652166741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652809537" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589652166741">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589652809537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652166741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652809537" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589652166741">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589652809537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652166741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652809537" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589643824257">
       <screen x="0" y="0" width="1366" height="728" />
@@ -405,6 +415,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589642974857" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1589652452713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652452713" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589647052680">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

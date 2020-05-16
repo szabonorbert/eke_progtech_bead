@@ -108,6 +108,7 @@ public class StoreTest {
 
         assertEquals(target.getList().get(0), car1);
     }
+
     @Test
     public void getListTest4() {
         Store target = new Store();
@@ -117,6 +118,4 @@ public class StoreTest {
         assertEquals(target.getList().get(0), car1);
         assertFalse(target.getList().get(0) == car1);
     }
-
-
 }

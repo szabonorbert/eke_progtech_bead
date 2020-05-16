@@ -20,9 +20,14 @@ public class App {
 
         sanyi.doSomething("illedelmesen elmagyarázza, hogy ezek irreális elvárások egy használtautó kereskedésben");
         kata.saySomething("Hát jó. Mit javasol?");
-        sanyi.saySomething("Mutatom mink van!");
 
+        sanyi.doSomething("végiggondolja mi van raktáron");
+        String sanyiThoughts = "";
         ArrayList<Car> list = store.getList();
+        for (int i=0; i<list.size(); i++){
+            sanyiThoughts += "\n\t\t" + list.get(i);
+        }
+        sanyi.saySomething("A következőkből lehet választani:" + sanyiThoughts);
 
     }
 }
