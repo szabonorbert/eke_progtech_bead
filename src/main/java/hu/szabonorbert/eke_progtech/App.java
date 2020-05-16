@@ -52,7 +52,7 @@ public class App {
 
         /////
 
-        Car compromiseCar = new Car("Reanult", "Megane CC", 2005, 65, new SportWrooming());
+        Car compromiseCar = new Car("Renault", "Megane CC", 2005, 65, new SportWrooming());
         kata.saySomething("Lehetséges-e a következő autóból beszerezni 5-öt?");
         kata.saySomething(compromiseCar.toString());
 
