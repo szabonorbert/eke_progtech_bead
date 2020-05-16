@@ -11,6 +11,7 @@ public abstract class CarCheckingTemplate {
         gettingIn();
         engineTest();
         gettingOut();
+        closeDoor();
     }
 
     private void getVision(){
@@ -20,4 +21,5 @@ public abstract class CarCheckingTemplate {
     protected abstract void gettingIn();
     protected abstract void engineTest();
     protected abstract void gettingOut();
+    protected abstract void closeDoor();
 }
