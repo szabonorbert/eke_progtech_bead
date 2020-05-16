@@ -42,7 +42,6 @@ public class StoreTest {
         target.addCar(car1);
         Car car2 = new Car("Renault", "Megane CC", 2004, 65);
         target.addCar(car2);
-
         target.removeCar(car2);
         assertEquals(1, target.getSize());
     }

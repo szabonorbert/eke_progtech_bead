@@ -18,6 +18,12 @@ public class Store {
     }
 
     public void removeCar(Car c){
-
+        int index = -1;
+        for (int i = 0; i < cars.size() && index == -1; i++){
+            if (cars.get(i).equals(c)) index = i;
+        }
+        if (index!=-1){
+            cars.remove(index);
+        }
     }
 }
