@@ -41,10 +41,11 @@ public class Car {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;
-        return Double.compare(car.condition, condition) == 0 &&
-                Objects.equals(manufacturer, car.manufacturer) &&
-                Objects.equals(type, car.type) &&
-                Objects.equals(year, car.year);
+        return year == car.year &&
+                Double.compare(car.condition, condition) == 0 &&
+                manufacturer.equals(car.manufacturer) &&
+                type.equals(car.type) &&
+                wroomingStrategy.equals(car.wroomingStrategy);
     }
 
     @Override
@@ -53,7 +54,8 @@ public class Car {
                 "manufacturer='" + manufacturer + '\'' +
                 ", type='" + type + '\'' +
                 ", year='" + year + '\'' +
-                ", condition=" + condition +
+                ", condition=" + condition + '\'' +
+                ", wroomingStrategy=" + wroomingStrategy +
                 '}';
     }
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
+    <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="TDD Store: upgrade for Car.equals and toString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589647407690</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TDD Store: add test wich fails now.&#10;removeCar method should consider WroomingStrategy">
+      <created>1589647777045</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589647777045</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +257,8 @@
     <MESSAGE value="More test for Store removeCar" />
     <MESSAGE value="Car got wrooming function and noise: Strategy Pattern" />
     <MESSAGE value="Csabi to Kati&#10;When a person is speaking, only the first letter will be shown&#10;Implemented Do at Manager and Customer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Csabi to Kati&#10;When a person is speaking, only the first letter will be shown&#10;Implemented Do at Manager and Customer" />
+    <MESSAGE value="TDD Store: add test wich fails now.&#10;removeCar method should consider WroomingStrategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD Store: add test wich fails now.&#10;removeCar method should consider WroomingStrategy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -261,34 +270,34 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646767298" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1589647406373">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1589648213230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589647406373" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589648213230" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589647721945">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589648217254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589647721945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589648217254" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589647721945">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589648217253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589647721945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589648217253" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589647721944">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589648217253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589647721944" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589648217253" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589647721945">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589648217254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589647721945" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589648217254" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589643824257">
       <screen x="0" y="0" width="1366" height="728" />
