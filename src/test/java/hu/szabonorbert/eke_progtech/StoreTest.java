@@ -97,7 +97,7 @@ public class StoreTest {
         target.addCar(car1);
         target.addCar(car2);
         target.addCar(car3);
-        assertEquals(1, target.getList().size());
+        assertEquals(3, target.getList().size());
     }
 
 }

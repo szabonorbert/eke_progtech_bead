@@ -29,6 +29,9 @@ public class Store {
 
     public ArrayList<Car> getList(){
         ArrayList<Car> ret = new ArrayList<Car>();
+        for (Car c: cars){
+            ret.add(c);
+        }
         return ret;
     }
 
