@@ -81,8 +81,8 @@ public class App {
         kata.saySomething("Jó napot! Úgy tudom megjött a rendelésem...");
         sanyi = Manager.getInstance();
         sanyi.saySomething("De meg ám! Nézze csak, hogy mik vannak raktáron:");
-        ArrayList<Car> newlist = store.getList();
-        for (Car c : newlist){
+        ArrayList<Car> newList = store.getList();
+        for (Car c : newList){
             sanyi.saySomething("\t\t" + c);
         }
 
