@@ -2,9 +2,6 @@ package hu.szabonorbert.eke_progtech;
 
 public class SoftCarChecking extends CarCheckingTemplate{
 
-    public SoftCarChecking(Car car) {
-        super(car);
-    }
 
     @Override
     protected void openDoor() {

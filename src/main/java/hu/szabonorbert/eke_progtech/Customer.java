@@ -1,8 +1,8 @@
 package hu.szabonorbert.eke_progtech;
 
 public class Customer extends Person {
-    public Customer(String name) {
-        super(name);
+    public Customer(String name, CarCheckingTemplate carCheckingTemplate) {
+        super(name, carCheckingTemplate);
     }
 
     @Override

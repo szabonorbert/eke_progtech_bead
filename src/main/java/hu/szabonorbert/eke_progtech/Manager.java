@@ -4,12 +4,12 @@ public class Manager extends Person {
 
     private static Manager uniqueInstance = null;
 
-    private Manager(String name) {
-        super(name);
+    private Manager(String name, CarCheckingTemplate carCheckingTemplate) {
+        super(name, carCheckingTemplate);
     }
 
     public static Manager getInstance(){
-        if (uniqueInstance == null) uniqueInstance = new Manager("Sanyi");
+        if (uniqueInstance == null) uniqueInstance = new Manager("Sanyi", new SoftCarChecking());
         uniqueInstance.doSomething("előbukkan");
         return uniqueInstance;
     }

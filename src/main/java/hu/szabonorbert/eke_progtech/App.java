@@ -8,7 +8,7 @@ public class App {
         Store store = new Store();
         store.addDummyCars();
 
-        Person kata = new Customer("Kata");
+        Person kata = new Customer("Kata", new HardCarChecking());
 
         kata.doSomething("belép a boltba");
         kata.saySomething("Jó napot!");

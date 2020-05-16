@@ -2,8 +2,10 @@ package hu.szabonorbert.eke_progtech;
 
 public abstract class Person {
     String name;
-    public Person(String name){
+    CarCheckingTemplate carCheckingTemplate;
+    public Person(String name, CarCheckingTemplate carCheckingTemplate){
         this.name = name;
+        this.carCheckingTemplate = carCheckingTemplate;
     }
     public String getName(){ return name; }
     public void saySomething(String sentence){

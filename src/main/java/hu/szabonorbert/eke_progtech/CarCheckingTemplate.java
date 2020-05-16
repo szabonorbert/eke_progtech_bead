@@ -2,10 +2,8 @@ package hu.szabonorbert.eke_progtech;
 
 public abstract class CarCheckingTemplate {
     Car car;
-    public CarCheckingTemplate(Car car){
+    public void checkTheCar(Car car){
         this.car = car;
-    }
-    public void checkTheCar(){
         getVision();
         openDoor();
         gettingIn();
@@ -13,7 +11,6 @@ public abstract class CarCheckingTemplate {
         gettingOut();
         closeDoor();
     }
-
     private void getVision(){
         System.out.println("ránéz az autóra");
     }
