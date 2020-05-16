@@ -7,12 +7,14 @@ public class Car {
     private String type;
     private int year;
     private double condition;
+    private WroomingStrategy wroomingStrategy;
 
-    public Car(String manufacturer, String type, int year, double condition) {
+    public Car(String manufacturer, String type, int year, double condition, WroomingStrategy wroomingStrategy) {
         this.manufacturer = manufacturer;
         this.type = type;
         this.year = year;
         this.condition = condition;
+        this.wroomingStrategy = wroomingStrategy;
     }
 
     public String getManufacturer() {
@@ -28,6 +30,10 @@ public class Car {
 
     public void setCondition(double condition) {
         this.condition = condition;
+    }
+
+    public void Wroom(){
+        wroomingStrategy.Wroom();
     }
 
     @Override

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/OldWrooming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SmallWrooming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/SportWrooming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/WroomingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/CarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/szabonorbert/eke_progtech/StoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +42,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hu.szabonorbert.eke_progtech" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hu.szabonorbert.eke_progtech" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -209,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589644790704</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="More test for Store removeCar">
+      <created>1589644932390</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589644932390</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,45 +238,47 @@
     <MESSAGE value="More cars" />
     <MESSAGE value="Store removeCar method" />
     <MESSAGE value="Store removeCar method done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Store removeCar method done" />
+    <MESSAGE value="More test for Store removeCar" />
+    <option name="LAST_COMMIT_MESSAGE" value="More test for Store removeCar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587827311403" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1587829743321">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1589645259719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589645259719" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1589644789109">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1589646427083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589644789109" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646427083" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589644898792">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589646385145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589644898792" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646385145" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589644898791">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589646385145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589644898791" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646385145" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589644898791">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589646385144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589644898791" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646385144" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589644898791">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589646385145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589644898791" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589646385145" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589643824257">
       <screen x="0" y="0" width="1366" height="728" />

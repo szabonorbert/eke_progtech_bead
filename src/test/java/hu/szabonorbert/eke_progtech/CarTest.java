@@ -14,6 +14,6 @@ public class CarTest {
     @Test
     public void TestingTheTests() {
         assertTrue(true);
-        System.out.println("test ");
+        System.out.println("test");
     }
 }
