@@ -20,35 +20,43 @@ public class StoreTest {
     @Test
     public void AddCarStoreSize1() {
         Store target = new Store();
+
         Car c = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
         target.addCar(c);
+
         assertEquals(1, target.getSize());
     }
 
     @Test
     public void AddCarStoreSize2() {
         Store target = new Store();
+
         Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
         target.addCar(car1);
         Car car2 = new Car("Renault", "Megane CC", 2004, 65, new SmallWrooming());
         target.addCar(car2);
+
         assertEquals(2, target.getSize());
     }
 
     @Test
     public void RemoveCarStoreSize1() {
         Store target = new Store();
+
         Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
         target.addCar(car1);
         Car car2 = new Car("Renault", "Megane CC", 2004, 65, new SmallWrooming());
         target.addCar(car2);
+
         target.removeCar(car2);
+
         assertEquals(1, target.getSize());
     }
 
     @Test
     public void RemoveCarStoreSize2() {
         Store target = new Store();
+
         Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
         target.addCar(car1);
         Car car2 = new Car("Renault", "Megane CC", 2004, 65, new SmallWrooming());
@@ -58,6 +66,20 @@ public class StoreTest {
         target.removeCar(car3);
 
         assertEquals(2, target.getSize());
+    }
+
+    @Test
+    public void RemoveCarStoreSize3() {
+        Store target = new Store();
+
+        Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
+        target.addCar(car1);
+
+        Car car2 = new Car("Opel", "Astra H", 2005, 78, new OldWrooming());
+
+        target.removeCar(car2);
+
+        assertEquals(1, target.getSize());
     }
 
 }
