@@ -46,4 +46,18 @@ public class StoreTest {
         assertEquals(1, target.getSize());
     }
 
+    @Test
+    public void RemoveCarStoreSize2() {
+        Store target = new Store();
+        Car car1 = new Car("Opel", "Astra H", 2005, 78);
+        target.addCar(car1);
+        Car car2 = new Car("Renault", "Megane CC", 2004, 65);
+        target.addCar(car2);
+
+        Car car3 = new Car("Audi", "A3", 2008, 84);
+        target.removeCar(car3);
+
+        assertEquals(2, target.getSize());
+    }
+
 }
