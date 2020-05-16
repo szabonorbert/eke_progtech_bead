@@ -25,12 +25,11 @@ public class App {
         /////
 
         sanyi.doSomething("végiggondolja mi van raktáron");
-        String sanyiThoughts = "";
+        sanyi.saySomething("A következőkből lehet választani:");
         ArrayList<Car> list = store.getList();
-        for (Car c:list){
-            sanyiThoughts += "\n\t\t" + c;
+        for (Car c : list){
+            sanyi.saySomething("\t\t" + c);
         }
-        sanyi.saySomething("A következőkből lehet választani:" + sanyiThoughts);
 
         /////
 
@@ -78,6 +77,14 @@ public class App {
 
         /////
 
+        kata.doSomething("belép a boltba");
+        kata.saySomething("Jó napot! Úgy tudom megjött a rendelésem...");
+        sanyi = Manager.getInstance();
+        sanyi.saySomething("De meg ám! Nézze csak, hogy mik vannak raktáron:");
+        ArrayList<Car> newlist = store.getList();
+        for (Car c : newlist){
+            sanyi.saySomething("\t\t" + c);
+        }
 
     }
 }
