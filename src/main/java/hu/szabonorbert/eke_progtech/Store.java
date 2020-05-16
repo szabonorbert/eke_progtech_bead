@@ -10,6 +10,6 @@ public class Store {
     }
 
     public int getSize(){
-        return cars.size();
+        return 0;
     }
 }
