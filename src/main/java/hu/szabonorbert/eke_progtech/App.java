@@ -1,5 +1,7 @@
 package hu.szabonorbert.eke_progtech;
 
+import java.util.ArrayList;
+
 public class App {
     public static void main(String args[]) {
 
@@ -15,6 +17,12 @@ public class App {
 
         Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
         kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
+
+        sanyi.doSomething("illedelmesen elmagyarázza, hogy ezek irreális elvárások egy használtautó kereskedésben");
+        kata.saySomething("Hát jó. Mit javasol?");
+        sanyi.saySomething("Mutatom mink van!");
+
+        ArrayList<Car> list = store.getList();
 
     }
 }

@@ -27,6 +27,11 @@ public class Store {
         }
     }
 
+    public ArrayList<Car> getList(){
+        ArrayList<Car> ret = new ArrayList<Car>();
+        return ret;
+    }
+
     public void addDummyCars(){
         cars.add(new Car("Opel", "Astra H", 2005, 78, new SportWrooming()));
         cars.add(new Car("Renault", "Megane CC", 2004, 65, new SmallWrooming()));

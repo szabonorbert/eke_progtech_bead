@@ -7,7 +7,7 @@ public abstract class Person {
     }
     public String getName(){ return name; }
     public void saySomething(String sentence){
-        System.out.println(name.charAt(0)  + ": " + sentence);
+        System.out.println(name.charAt(0)  + ": - " + sentence);
     }
     public abstract void doSomething(String action);
 }
