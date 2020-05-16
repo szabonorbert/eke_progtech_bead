@@ -100,5 +100,23 @@ public class StoreTest {
         assertEquals(3, target.getList().size());
     }
 
+    @Test
+    public void getListTest3() {
+        Store target = new Store();
+        Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
+        target.addCar(car1);
+
+        assertEquals(target.getList().get(0), car1);
+    }
+    @Test
+    public void getListTest4() {
+        Store target = new Store();
+        Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
+        target.addCar(car1);
+
+        assertEquals(target.getList().get(0), car1);
+        assertFalse(target.getList().get(0) == car1);
+    }
+
 
 }
