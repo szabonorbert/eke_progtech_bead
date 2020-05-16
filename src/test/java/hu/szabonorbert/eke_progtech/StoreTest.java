@@ -82,4 +82,16 @@ public class StoreTest {
         assertEquals(1, target.getSize());
     }
 
+    @Test
+    public void getListTest1() {
+        Store target = new Store();
+        Car car1 = new Car("Opel", "Astra H", 2005, 78, new SportWrooming());
+        Car car2 = new Car("Opel", "Astra H", 2005, 78, new OldWrooming());
+        Car car3 = new Car("Audi", "A3", 2008, 84, new SportWrooming());
+        target.addCar(car1);
+        target.addCar(car2);
+        target.addCar(car3);
+        assertEquals(1, target.getList().size());
+    }
+
 }
