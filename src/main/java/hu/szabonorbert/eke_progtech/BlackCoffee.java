@@ -14,6 +14,6 @@ public class BlackCoffee extends Coffee {
 
     @Override
     public String toString() {
-        return "kávé";
+        return getColor() + " kávé";
     }
 }

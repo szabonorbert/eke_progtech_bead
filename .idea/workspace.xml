@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/BlackCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/CoffeeDecoratorMilky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/CoffeeDecoratorSweet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/BlackCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/BlackCoffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +42,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="hu.szabonorbert.eke_progtech" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hu.szabonorbert.eke_progtech" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hu.szabonorbert.eke_progtech" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
@@ -423,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589823633715</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="BlackCoffee class">
+      <created>1589823814013</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1589823814013</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TDD Store: add test wich fails now.&#10;removeCar method should consider WroomingStrategy" />
     <MESSAGE value="TDD Store: upgrade for Car.equals and toString" />
     <MESSAGE value="small improvements" />
     <MESSAGE value="Car toString method" />
@@ -465,46 +474,47 @@
     <MESSAGE value="Finished methods. Preparing for testing." />
     <MESSAGE value="Small text update" />
     <MESSAGE value="Coffee class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coffee class" />
+    <MESSAGE value="BlackCoffee class" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlackCoffee class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587827311403" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1589823668751">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1589823900968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823668751" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823900968" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589823631458">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589823812096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823631458" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823812096" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="79" key="GridCell.Tab.0.bottom" timestamp="1589823283712">
+    <state width="1323" height="79" key="GridCell.Tab.0.bottom" timestamp="1589824296976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="79" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823283712" />
+    <state width="1323" height="79" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589824296976" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="79" key="GridCell.Tab.0.center" timestamp="1589823283711">
+    <state width="1323" height="79" key="GridCell.Tab.0.center" timestamp="1589824296975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="79" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823283711" />
+    <state width="1323" height="79" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589824296975" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="79" key="GridCell.Tab.0.left" timestamp="1589823283711">
+    <state width="1323" height="79" key="GridCell.Tab.0.left" timestamp="1589824296975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="79" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823283711" />
+    <state width="1323" height="79" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589824296975" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="79" key="GridCell.Tab.0.right" timestamp="1589823283711">
+    <state width="1323" height="79" key="GridCell.Tab.0.right" timestamp="1589824296976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="79" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823283711" />
+    <state width="1323" height="79" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589824296976" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589660381142">
       <screen x="0" y="0" width="1366" height="728" />

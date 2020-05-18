@@ -123,7 +123,7 @@ public class App {
 
         sanyi.saySomething("Kávét parancsol, amíg szerződést aláírjuk?");
         kata.saySomething("Igen.");
-        Coffee coffee = new BlackCoffee();
+
 
 
 
