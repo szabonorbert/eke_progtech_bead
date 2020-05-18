@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
+    <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="Car is cloneable for Prototype strategy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/szabonorbert/eke_progtech/CarTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587827042163</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Prepared for Unit testing">
-      <created>1589622382838</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1589622382838</updated>
     </task>
     <task id="LOCAL-00002" summary="redme update">
       <created>1589622678647</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589827088050</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Car is cloneable for Prototype strategy">
+      <created>1589827350993</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1589827350994</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="In person abstract class&#10;Speak method =&gt; saySomething&#10;Do method =&gt; doSomething" />
     <MESSAGE value="Józsi to Sanyi" />
     <MESSAGE value="Store getList method" />
     <MESSAGE value="Store getList method test: basic" />
@@ -510,7 +508,8 @@
     <MESSAGE value="Decorator Pattern demonstrated, end of story" />
     <MESSAGE value="Rename classes for better use&#10;Improved readme" />
     <MESSAGE value="WroomingStrategy update: now it's really a Strategy template&#10;Needed to refactor bunch of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="WroomingStrategy update: now it's really a Strategy template&#10;Needed to refactor bunch of code" />
+    <MESSAGE value="Car is cloneable for Prototype strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car is cloneable for Prototype strategy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -522,34 +521,34 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823900968" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589827086231">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589827372667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589827086231" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589827372667" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1589827331037">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1589829194329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589827331037" />
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829194329" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1589827331037">
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1589829194328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589827331037" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829194328" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1589827331037">
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1589829194328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589827331037" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829194328" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1589827331037">
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1589829194329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589827331037" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829194329" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589660381142">
       <screen x="0" y="0" width="1366" height="728" />
@@ -575,10 +574,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589652452713" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589647052680">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589828134843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589647052680" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589828134843" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587827804751" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

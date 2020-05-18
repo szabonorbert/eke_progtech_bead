@@ -1,5 +1,6 @@
 package hu.szabonorbert.eke_progtech;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Car implements Cloneable{
@@ -8,6 +9,7 @@ public class Car implements Cloneable{
     private int year;
     private double condition;
     private WroomingStrategy wroomingStrategy;
+    private ArrayList<String> comments;
 
     public Car(String manufacturer, String type, int year, double condition, WroomingStrategy wroomingStrategy) {
         this.manufacturer = manufacturer;
@@ -15,13 +17,30 @@ public class Car implements Cloneable{
         this.year = year;
         this.condition = condition;
         this.wroomingStrategy = wroomingStrategy;
+        this.comments = new ArrayList<String>();
     }
-
+    public Car(String manufacturer, String type, int year, double condition, WroomingStrategy wroomingStrategy, ArrayList<String> comments) {
+        this.manufacturer = manufacturer;
+        this.type = type;
+        this.year = year;
+        this.condition = condition;
+        this.wroomingStrategy = wroomingStrategy;
+        this.comments = comments;
+    }
     public String getManufacturer() { return manufacturer; }
     public String getType() { return type; }
     public int getYear() { return year; }
     public double getCondition() { return condition; }
     public WroomingStrategy getWroomingStrategy() { return wroomingStrategy; }
+    public void addComment(String comment){
+        comments.add(comment);
+    }
+    public void removeComment(String comment){
+        comments.remove(comment);
+    }
+    public ArrayList<String> getComments(){
+        return (ArrayList)comments.clone();
+    }
 
     public void Wroom(){ wroomingStrategy.Wroom(); }
 
@@ -40,17 +59,27 @@ public class Car implements Cloneable{
 
     @Override
     public String toString() {
-        return "Car{" +
+        StringBuilder sb = new StringBuilder();
+        sb.append( "Car{" +
                 "manufacturer='" + manufacturer + '\'' +
                 ", type='" + type + '\'' +
                 ", year='" + year + '\'' +
                 ", condition='" + condition + "%'" +
-                ", motorName='" + wroomingStrategy + '\'' +
-                '}';
+                ", wroomingStrategy='" + wroomingStrategy + '\'' +
+                ", comments: {");
+
+
+        for(String c:comments) {
+            sb.append("'").append(c).append("'");
+            if (c != comments.get(comments.size()-1)) sb.append(", ");
+        }
+
+        sb.append("}}");
+        return sb.toString();
     }
 
     @Override
     public Car clone(){
-        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy);
+        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy, (ArrayList)comments.clone());
     }
 }

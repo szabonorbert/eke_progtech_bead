@@ -24,10 +24,17 @@ public class App {
         /////
 
         Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new WroomingSport("Audi 007"));
+        kataDreamCar.addComment("nagyszerű");
+        kataDreamCar.addComment("csodálatos");
+        kataDreamCar.addComment("elképesztő");
         kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
+        sanyi.doSomething("próbája felfogni, amit Kata mondott");
+        Car sanyiCarClone = kataDreamCar.clone();
+        sanyi.saySomething("Tehát ha jól értettem: " + sanyiCarClone + ".");
+        kata.saySomething("Igen, igen!");
         sanyi.doSomething("illedelmesen elmagyarázza, hogy ezek irreális elvárások egy használtautó kereskedésben");
         kata.saySomething("Hát jó. Mit javasol?");
-
+        sanyi.saySomething("Először is: ne aggassunk az autókra jelzőket.");
         /////
 
         sanyi.doSomething("végiggondolja mi van raktáron");
