@@ -122,7 +122,20 @@ public class App {
         }
 
         sanyi.saySomething("Kávét parancsol, amíg szerződést aláírjuk?");
-        kata.saySomething("Igen.");
+        kata.saySomething("Hogyne!");
+        sanyi.doSomething("reménykedett, hogy ezt megússza, de sajnos nem. Hátra megy, majd kisvártatva visszajön egy bögrével");
+        Coffee coffee = new BlackCoffee();
+        sanyi.doSomething("átnyújtja: " + coffee);
+        kata.saySomething("Őőő... Tej van?");
+        coffee = new CoffeeDecoratorMilky(coffee);
+        sanyi.doSomething("hátra megy, kisváratatva visszajön, majd átnyújtja: " + coffee);
+        kata.saySomething("Nagyon jó, már csak egy kis cukor kellene...");
+        coffee = new CoffeeDecoratorSweet(coffee);
+        sanyi.doSomething("harmadjára is hátramegy, s visszatérte után remegő kezekkel átnyújtja: " + coffee);
+        kata.saySomething("Köszönöm, közben alá is írtam mindent. Viszlát!");
+        sanyi.doSomething("órákkal később vette csak észre, hogy Kata semmit nem írt alá, és a fizetést is elmulasztotta.");
+        System.out.println("");
+        System.out.println("Az ügyfél az első.");
 
 
 
