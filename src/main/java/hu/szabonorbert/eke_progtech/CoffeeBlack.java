@@ -1,6 +1,6 @@
 package hu.szabonorbert.eke_progtech;
 
-public class BlackCoffee extends Coffee {
+public class CoffeeBlack extends Coffee {
 
     @Override
     public String getColor() {

@@ -137,7 +137,7 @@ public class App {
         sanyi.saySomething("Kávét parancsol, amíg szerződést aláírjuk?");
         kata.saySomething("Hogyne!");
         sanyi.doSomething("reménykedett, hogy ezt megússza, de sajnos nem. Hátra megy, majd kisvártatva visszajön egy bögrével");
-        Coffee coffee = new BlackCoffee();
+        Coffee coffee = new CoffeeBlack();
         sanyi.doSomething("átnyújtja: " + coffee);
         kata.saySomething("Őőő... Tej van?");
         coffee = new CoffeeDecoratorMilky(coffee);
