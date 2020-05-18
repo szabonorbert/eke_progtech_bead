@@ -9,7 +9,7 @@ public class Manager extends Person {
     }
 
     public static Manager getInstance(){
-        if (uniqueInstance == null) uniqueInstance = new Manager("Sanyi", new SoftCarChecking());
+        if (uniqueInstance == null) uniqueInstance = new Manager("Sanyi", new CarCheckingSoft());
         uniqueInstance.doSomething("előbukkan");
         return uniqueInstance;
     }

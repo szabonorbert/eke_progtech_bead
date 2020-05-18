@@ -1,6 +1,6 @@
 package hu.szabonorbert.eke_progtech;
 
-public class SoftCarChecking extends CarCheckingTemplate{
+public class CarCheckingSoft extends CarCheckingTemplate{
 
 
     @Override

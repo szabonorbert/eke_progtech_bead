@@ -1,6 +1,6 @@
 package hu.szabonorbert.eke_progtech;
 
-public class SmallWrooming extends WroomingStrategy{
+public class WroomingSmall extends WroomingStrategy{
 
     @Override
     public void Wroom() {
@@ -11,7 +11,7 @@ public class SmallWrooming extends WroomingStrategy{
         return "SmallWrooming";
     }
     @Override
-    public SmallWrooming clone(){
-        return new SmallWrooming();
+    public WroomingSmall clone(){
+        return new WroomingSmall();
     }
 }

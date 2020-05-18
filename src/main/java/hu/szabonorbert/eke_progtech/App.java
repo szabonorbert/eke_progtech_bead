@@ -8,7 +8,7 @@ public class App {
         Store store = new Store();
         store.addDummyCars();
 
-        Person kata = new Customer("Kata", new HardCarChecking());
+        Person kata = new Customer("Kata", new CarCheckingHard());
 
         kata.doSomething("belép a boltba");
         kata.saySomething("Jó napot!");
@@ -17,7 +17,7 @@ public class App {
 
         /////
 
-        Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new SportWrooming());
+        Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new WroomingSport());
         kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
         sanyi.doSomething("illedelmesen elmagyarázza, hogy ezek irreális elvárások egy használtautó kereskedésben");
         kata.saySomething("Hát jó. Mit javasol?");
@@ -52,7 +52,7 @@ public class App {
 
         /////
 
-        Car compromiseCar = new Car("Renault", "Megane CC", 2005, 65, new SportWrooming());
+        Car compromiseCar = new Car("Renault", "Megane CC", 2005, 65, new WroomingSport());
         kata.saySomething("Lehetséges-e a következő autóból beszerezni 5-öt?");
         kata.saySomething(compromiseCar.toString());
 

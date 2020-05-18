@@ -3,8 +3,9 @@ Egy autókereskedést modellezünk a szoftverrel (nem vár user inputot, a cél 
 #### Programtervezési minták
 - Singleton: az menedzsert bárki elérheti és tehet fel kérdéseket (metódusok hívása), de belőle csak egy van. A getInstance-al férünk hozzá.
 - Prototype: pl ha azt mondja a menedzser, hogy “szerezzünk ugyanilyen autót”, akkor abból az autóból kell készíteni akármennyi példányt (deep copy).
-- Template: egy autó tesztlésének meg van a módja
+- Template: egy autó tesztelésének van egy módja, lépések folyamata
 - Strategy: a vevő kéri, hogy hadd próbálja ki az autót. Kinyitja az ajtót, beül, elindítja, leállítja (template). De például: egy kis autó halkan brummog, egy nagy autó hangosan brummog, ez már az autó brummogási stratégiája.
+- Decorator: a vevő kávét kér, lehet belőle tejer és cukros kávét is csinálni
 
 #### Unit teszt ötletek
 - Store: sikerül hozzáadni az autót?
