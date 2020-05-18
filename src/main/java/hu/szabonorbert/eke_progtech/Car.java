@@ -26,7 +26,7 @@ public class Car {
     public void Wroom(){ wroomingStrategy.Wroom(); }
 
     public Car deepCopy(){
-        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy.clone());
+        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy);
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Car {
                 ", type='" + type + '\'' +
                 ", year='" + year + '\'' +
                 ", condition='" + condition + "%'" +
-                ", wroomingStrategy='" + wroomingStrategy + '\'' +
+                ", motorName='" + wroomingStrategy + '\'' +
                 '}';
     }
 }

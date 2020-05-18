@@ -38,9 +38,9 @@ public class Store {
     }
 
     public void addDummyCars(){
-        cars.add(new Car("Opel", "Astra H", 2005, 78, new WroomingSport()));
-        cars.add(new Car("Renault", "Megane CC", 2004, 65, new WroomingSmall()));
-        cars.add(new Car("Audi", "A3", 2008, 84, new WroomingSport()));
-        cars.add(new Car("Mercedes", "E 300 D", 1992, 22, new WroomingOld()));
+        cars.add(new Car("Opel", "Astra H", 2005, 78, new WroomingSport("Opel 112")));
+        cars.add(new Car("Renault", "Megane CC", 2004, 65, new WroomingSmall("Reanult 5414")));
+        cars.add(new Car("Audi", "A3", 2008, 84, new WroomingSport("Renault 4545")));
+        cars.add(new Car("Mercedes", "E 300 D", 1992, 22, new WroomingOld("Babetta ???")));
     }
 }
