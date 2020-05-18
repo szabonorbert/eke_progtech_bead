@@ -117,7 +117,14 @@ public class App {
             kata.saySomething("Igen, pontosan ilyet.");
         } else {
             kata.saySomething("Nem igazán... Kinél lehet panaszt benyújtani?");
+            sanyi.saySomething("Őőőőő... Ezen most túllépünk.");
+            sanyi.doSomething("jedi elmetrükköt alkalmaz");
         }
+
+        sanyi.saySomething("Kávét parancsol, amíg szerződést aláírjuk?");
+        kata.saySomething("Igen.");
+        Coffee coffee = new BlackCoffee();
+
 
 
     }
