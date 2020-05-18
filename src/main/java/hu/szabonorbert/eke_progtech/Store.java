@@ -32,7 +32,7 @@ public class Store {
     public ArrayList<Car> getList(){
         ArrayList<Car> ret = new ArrayList<>();
         for (Car c: cars){
-            ret.add(c.deepCopy());
+            ret.add(c.clone());
         }
         return ret;
     }

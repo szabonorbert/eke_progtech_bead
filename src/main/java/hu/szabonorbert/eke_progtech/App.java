@@ -10,7 +10,7 @@ public class App {
         wr.Wroom();
 
 
-/*
+
         Store store = new Store();
         store.addDummyCars();
 
@@ -23,7 +23,7 @@ public class App {
 
         /////
 
-        Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new WroomingSport());
+        Car kataDreamCar = new Car ("Audi", "TT", 2020, 100, new WroomingSport("Audi 007"));
         kata.saySomething("Szeretnék venni a cégem menedzsereinek ilyen autókat: " + kataDreamCar + ".");
         sanyi.doSomething("illedelmesen elmagyarázza, hogy ezek irreális elvárások egy használtautó kereskedésben");
         kata.saySomething("Hát jó. Mit javasol?");
@@ -58,7 +58,7 @@ public class App {
 
         /////
 
-        Car compromiseCar = new Car("Renault", "Megane CC", 2005, 65, new WroomingSport());
+        Car compromiseCar = new Car("Renault", "Megane CC", 2005, 65, new WroomingSport("Renault 4585"));
         kata.saySomething("Lehetséges-e a következő autóból beszerezni 5-öt?");
         kata.saySomething(compromiseCar.toString());
 
@@ -79,7 +79,7 @@ public class App {
         System.out.println("");
 
         sanyi.doSomething("rájön honnan szerezzen olyan autót, amit a vevő rendelt, fel is tölti a készletet");
-        for (int i=0; i<5; i++) store.addCar(compromiseCar.deepCopy());
+        for (int i=0; i<5; i++) store.addCar(compromiseCar.clone());
 
         /////
 
@@ -98,7 +98,7 @@ public class App {
         for (int i=0; i<6; i++){
             if (store.removeCar(compromiseCar)){
                 kata.saySomething("Ez meg is van...");
-                kataCars.add(compromiseCar.deepCopy());
+                kataCars.add(compromiseCar.clone());
             } else {
                 kata.saySomething("Ez nincs! Hoppá, véletlen olyan autót akartam elvinni, ami itt nem létezik...");
             }
@@ -143,7 +143,7 @@ public class App {
         System.out.println("");
         System.out.println("Az ügyfél az első.");
 
-*/
+
 
 
     }

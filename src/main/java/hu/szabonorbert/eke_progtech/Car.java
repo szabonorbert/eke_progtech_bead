@@ -2,7 +2,7 @@ package hu.szabonorbert.eke_progtech;
 
 import java.util.Objects;
 
-public class Car {
+public class Car implements Cloneable{
     private String manufacturer;
     private String type;
     private int year;
@@ -25,9 +25,6 @@ public class Car {
 
     public void Wroom(){ wroomingStrategy.Wroom(); }
 
-    public Car deepCopy(){
-        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy);
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -50,5 +47,10 @@ public class Car {
                 ", condition='" + condition + "%'" +
                 ", motorName='" + wroomingStrategy + '\'' +
                 '}';
+    }
+
+    @Override
+    public Car clone(){
+        return new Car(this.manufacturer, this.type, this.year, this.condition, this.wroomingStrategy);
     }
 }
