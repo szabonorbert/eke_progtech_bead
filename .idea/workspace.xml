@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c3b78ec-b020-49d8-9ab2-6c6d1222740c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/eke_progtech.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/BlackCoffee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/CarCheckingHard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/CarCheckingSoft.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/CarCheckingTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Coffee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/CoffeeDecoratorMilky.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/CoffeeDecoratorSweet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/WroomingOld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/WroomingSmall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/WroomingSport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hu/szabonorbert/eke_progtech/WroomingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/eke_progtech.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/hu/szabonorbert/eke_progtech/StoreTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/BlackCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/szabonorbert/eke_progtech/CoffeeBlack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,20 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587827042163</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Car update&#10;year attribute instead of color">
-      <created>1589623163207</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1589623163207</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Basic Person stuff: has a name, and he can speak">
-      <created>1589624089352</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1589624089352</updated>
     </task>
     <task id="LOCAL-00005" summary="The manager is singleton now!">
       <created>1589624611079</created>
@@ -480,7 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589829237639</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Rename CoffeeBlack">
+      <created>1589829446049</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1589829446049</updated>
+    </task>
+    <task id="LOCAL-00053" summary="delete Vehicle">
+      <created>1589829484332</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1589829484333</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,8 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Store getList method" />
-    <MESSAGE value="Store getList method test: basic" />
     <MESSAGE value="Store getList method test" />
     <MESSAGE value="Car deepCopy method: WroomingStrategy is clonable now&#10;=&gt; Prototype design pattern" />
     <MESSAGE value="Tests for the getList method of Store, wich depends on the deepCopy method of Car" />
@@ -522,7 +504,9 @@
     <MESSAGE value="WroomingStrategy update: now it's really a Strategy template&#10;Needed to refactor bunch of code" />
     <MESSAGE value="Car is cloneable for Prototype strategy" />
     <MESSAGE value="Impromenets, clone worth something now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impromenets, clone worth something now" />
+    <MESSAGE value="Rename CoffeeBlack" />
+    <MESSAGE value="delete Vehicle" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete Vehicle" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587827311404">
@@ -534,34 +518,34 @@
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589823900968" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587829743321" />
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589829444416">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1589829482936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829444416" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829482936" />
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587827777047" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589619321423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589619321423" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1589829253761">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1589829610946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829253761" />
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829610946" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1589829253761">
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1589829610946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829253761" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829610946" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1589829253760">
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1589829610946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829253760" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829610946" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587830250757" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1589829253761">
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1589829610946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829253761" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728/-1050.-1079.1050.1640@0.0.1366.728" timestamp="1589829610946" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587830250758" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1589660381142">
       <screen x="0" y="0" width="1366" height="728" />

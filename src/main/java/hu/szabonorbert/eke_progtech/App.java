@@ -5,12 +5,6 @@ import java.util.ArrayList;
 public class App {
     public static void main(String args[]) {
 
-
-        WroomingStrategy wr = new WroomingSport("Renault");
-        wr.Wroom();
-
-
-
         Store store = new Store();
         store.addDummyCars();
 
