@@ -50,11 +50,12 @@ public class Car implements Cloneable{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;
-        return year == car.year &&
+        return o.toString().equals(car.toString());
+        /*year == car.year &&
                 Double.compare(car.condition, condition) == 0 &&
                 manufacturer.equals(car.manufacturer) &&
                 type.equals(car.type) &&
-                wroomingStrategy.toString().equals(car.wroomingStrategy.toString());
+                wroomingStrategy.toString().equals(car.wroomingStrategy.toString());*/
     }
 
     @Override
